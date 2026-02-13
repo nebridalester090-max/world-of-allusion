@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The World of Allusion</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(250,204,21,0.15), transparent 35%),
+        radial-gradient(circle at 80% 30%, rgba(147,197,253,0.15), transparent 40%),
+        radial-gradient(circle at 50% 80%, rgba(244,114,182,0.15), transparent 35%),
+        linear-gradient(135deg, #020617, #0f172a, #020617);
+      color: #f8fafc;
+      line-height: 1.7;
+    }
+
+    .home-btn { position: fixed; bottom: 25px; right: 25px; background: #facc15; color: #020617; padding: 0.8rem 1.2rem; border-radius: 50px; text-decoration: none; font-weight: 600; box-shadow: 0 8px 20px rgba(0,0,0,0.4); transition: 0.3s; z-index: 1000; }
+    .home-btn:hover { transform: translateY(-4px); }
+
+    header { padding: 2.5rem 1.5rem 1.5rem; text-align: center; background: rgba(2,6,23,0.55); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 10; border-bottom: 1px solid rgba(148,163,184,0.15); }
+    header h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; margin-bottom: 0.5rem; }
+    header p { color: #cbd5f5; max-width: 900px; margin: 0.5rem auto 1rem; }
+    nav a { color: #93c5fd; margin: 0 0.8rem; text-decoration: none; font-weight: 600; transition: 0.25s; }
+    nav a:hover { color: #facc15; }
+
+    main { max-width: 1100px; margin: auto; padding: 3rem 1.5rem; }
+
+    .hero { display: grid; grid-template-columns: 1fr; gap: 2rem; margin-bottom: 3rem; }
+
+    .glass { background: rgba(255,255,255,0.08); border-radius: 24px; padding: 2.2rem; box-shadow: 0 20px 40px rgba(0,0,0,0.35); border: 1px solid rgba(148,163,184,0.15); }
+
+    h2 { font-family: 'Playfair Display', serif; margin-bottom: 0.8rem; color: #facc15; font-size: 1.8rem; }
+
+    .type-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem; margin-top: 1.5rem; }
+    .type-card { background: rgba(255,255,255,0.06); border-radius: 18px; padding: 1.6rem 1.5rem; border: 1px solid rgba(148,163,184,0.12); transition: transform 0.25s ease, background 0.25s ease; }
+    .type-card:hover { transform: translateY(-6px); background: rgba(255,255,255,0.1); }
+    .type-card a { color: #93c5fd; font-weight: 600; text-decoration: none; }
+    .type-card a:hover { color: #facc15; }
+
+    section.detail { margin-top: 4rem; }
+    .return-link { display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: rgba(250,204,21,0.2); border-radius: 30px; text-decoration: none; color: #facc15; font-weight: 600; transition: 0.3s; }
+    .return-link:hover { background: rgba(250,204,21,0.35); }
+    a.external { color:#93c5fd; text-decoration: underline; }
+
+    footer { text-align: center; padding: 1.8rem 1rem; background: rgba(2,6,23,0.6); border-top: 1px solid rgba(148,163,184,0.15); color: #cbd5f5; font-size: 0.9rem; margin-top: 3rem; }
+  </style>
+</head>
+<body>
+
+  <a href="#home" class="home-btn">⬆ Home</a>
+
+  <header>
+    <h1>✨ The World of Allusion</h1>
+    <p>Allusion is a subtle reference that allows writers to connect ideas across history, literature, religion, and culture.</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#types">Types</a>
+      <a href="#biblical">Biblical</a>
+      <a href="#mythological">Mythological</a>
+      <a href="#historical">Historical</a>
+      <a href="#literary">Literary</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <div class="hero">
+      <div class="glass">
+        <h2>What is Allusion and Why Is It Important?</h2>
+        <p><strong>Allusion</strong> is an indirect reference to a person, event, place, literary work, artwork, or cultural idea that exists outside the text. Instead of explaining the reference fully, the writer briefly mentions it and trusts the reader to recognize its meaning. This technique allows a text to carry layers of interpretation beyond its literal words.</p>
+        <p>Allusions function as intellectual bridges. They link a present moment to the past, a simple sentence to a larger tradition, or a modern character to an ancient archetype. When readers recognize an allusion, they activate prior knowledge that deepens understanding and emotional impact.</p>
+        <p>Allusion is important because it strengthens themes, sharpens arguments, and adds sophistication to writing. It encourages critical thinking and cultural awareness. Rather than stating ideas directly, writers suggest them, creating a richer and more engaging reading experience.</p>
+        <p>Through allusion, literature becomes interconnected. Stories speak to other stories, and meaning expands across generations.</p>
+      </div>
+    </div>
+
+    <section id="types" class="glass">
+      <h2>Types of Allusion</h2>
+      <p>Allusions can draw from different areas of knowledge. Each type carries distinct themes, symbolism, and historical influence.</p>
+      <div class="type-grid">
+        <div class="type-card"><a href="#biblical">📜 Biblical Allusion</a></div>
+        <div class="type-card"><a href="#mythological">🏛️ Mythological Allusion</a></div>
+        <div class="type-card"><a href="#historical">⏳ Historical Allusion</a></div>
+        <div class="type-card"><a href="#literary">📚 Literary Allusion</a></div>
+      </div>
+    </section>
+
+    <section id="biblical" class="detail">
+      <div class="glass">
+        <h2>Biblical Allusion</h2>
+        <p>Biblical allusions reference stories, figures, parables, and symbols from the Bible. Because biblical narratives have shaped moral philosophy, art, and literature for centuries, these references often carry strong ethical or spiritual meaning.</p>
+        <p>Writers use biblical allusions to suggest ideas such as sacrifice, betrayal, temptation, redemption, forgiveness, or faith. Even brief mentions can evoke powerful themes rooted in religious tradition.</p>
+        <p>These allusions are common in speeches, novels, poetry, and political discourse because they resonate deeply with audiences familiar with biblical stories.</p>
+        <p><strong>Example:</strong> The "Good Samaritan."</p>
+        <p>Learn more: <a class="external" href="https://www.britannica.com/topic/parable-of-the-Good-Samaritan" target="_blank">Britannica – Parable of the Good Samaritan</a></p>
+        <a href="#types" class="return-link">← Return to Types</a>
+      </div>
+    </section>
+
+    <section id="mythological" class="detail">
+      <div class="glass">
+        <h2>Mythological Allusion</h2>
+        <p>Mythological allusions draw from ancient myths, particularly Greek and Roman mythology. These myths explore universal human experiences such as pride, ambition, love, jealousy, fate, and downfall.</p>
+        <p>By referencing mythological figures or stories, writers connect modern situations to timeless patterns of behavior. Myth-based allusions often emphasize dramatic consequences or heroic qualities.</p>
+        <p>Because myths rely heavily on symbolism, these allusions add richness and imaginative depth to writing.</p>
+        <p><strong>Example:</strong> "Achilles' heel."</p>
+        <p>Learn more: <a class="external" href="https://www.britannica.com/topic/Achilles-Greek-mythology" target="_blank">Britannica – Achilles</a></p>
+        <a href="#types" class="return-link">← Return to Types</a>
+      </div>
+    </section>
+
+    <section id="historical" class="detail">
+      <div class="glass">
+        <h2>Historical Allusion</h2>
+        <p>Historical allusions refer to real events, movements, and figures from the past. They give writing credibility and seriousness by linking ideas to actual moments in history.</p>
+        <p>These references are often used in persuasive writing and speeches to compare present circumstances with past successes or failures. Historical allusions can serve as warnings, inspirations, or lessons.</p>
+        <p>They remind readers that current events are part of a larger historical continuum.</p>
+        <p><strong>Example:</strong> Referring to a major defeat as "another Waterloo," alluding to Napoleon's final loss.</p>
+        <p>Learn more: <a class="external" href="https://www.britannica.com/event/Battle-of-Waterloo" target="_blank">Britannica – Battle of Waterloo</a></p>
+        <a href="#types" class="return-link">← Return to Types</a>
+      </div>
+    </section>
+
+    <section id="literary" class="detail">
+      <div class="glass">
+        <h2>Literary Allusion</h2>
+        <p>Literary allusions reference other books, poems, plays, or authors. They demonstrate influence, create contrast, or develop themes by connecting one text to another.</p>
+        <p>These allusions reward readers who recognize the reference and understand its implications. They can also serve as commentary, whether honoring or critiquing earlier works.</p>
+        <p>Through literary allusion, writers participate in an ongoing conversation across time.</p>
+        <p><strong>Example:</strong> "Orwellian."</p>
+        <p>Learn more: <a class="external" href="https://www.britannica.com/biography/George-Orwell" target="_blank">Britannica – George Orwell</a></p>
+        <a href="#types" class="return-link">← Return to Types</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed as a layered literary experience.</p>
+  </footer>
+
+</body>
+</html>
